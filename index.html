@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Library Page</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;500;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/ef21b2e4b0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="container bounce-top">
+    <header>
+      <i class="fa-solid fa-bars"></i>
+      <span class="header--title">Library</span>
+      <i class="fa-solid fa-cart-shopping"></i>
+    </header>
+
+    <form class="search__form">
+      <input class="search__input" type="search" placeholder="Search books...">
+      </input>
+      <i class="fa-solid fa-magnifying-glass search--icon"></i>
+    </form>
+
+    <main>
+      <div class="recommended">
+        <h3 class="recommended__title">Book of the day</h3>
+        <div class="recommended__descriptions">
+          <img src="https://cdn.discordapp.com/attachments/1062234802591375380/1062658671026372638/noFixedAbode.jpg"
+            class="recommended__descriptions--img-box" />
+          <div class="recommended__descriptions--details">
+            <h3 class="recommended__descriptions--title">No Fixed Abode</h3>
+            <p class="recommended__descriptions--genre">Journey Through</p>
+            <i class="fa-solid fa-star star--big" style="color : #ffce33;"></i>
+            <i class="fa-solid fa-star star--big" style="color : #ffce33;"></i>
+            <i class="fa-solid fa-star star--big" style="color : #ffce33;"></i>
+            <i class="fa-solid fa-star star--big" style="color : #ffce33;"></i>
+            <i class="fa-solid fa-star star--big" style="color: #d5d5d5;"></i>
+            <form class="recommended__form">
+              <input class="recommended__descriptions--genre--btn" type="button" value="Journey" />
+              <input class="recommended__descriptions--genre--btn" type="button" value="Biography" />
+            </form>
+            <div class="recommended__book">
+              <div class="cart-plus__box">
+                <i class="fa-solid fa-cart-plus"></i>
+              </div>
+              <div class="recommended__descriptions--bookBtn">Book now</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="related">
+        <h3 class="related__title">Top Adventures</h3>
+        <div class="related__contents">
+          <div class="related__contents--content related__contents--first">
+            <img class="related__contents--img"
+              src="https://cdn.discordapp.com/attachments/1062234802591375380/1062658671882014720/holdStill.jpg" />
+            <div class="related__stars">
+              <i class="fa-solid fa-star star--sm" style="color : #ffce33;"></i>
+              <i class="fa-solid fa-star star--sm" style="color: #ffce33;"></i>
+              <i class="fa-solid fa-star star--sm" style="color: #ffce33;"></i>
+              <i class="fa-solid fa-star star--sm" style="color: #ffce33;"></i>
+              <i class="fa-solid fa-star star--sm" style="color: #ffce33;"></i>
+            </div>
+          </div>
+
+          <div class="related__contents--content">
+            <img class="related__contents--img"
+              src="https://cdn.discordapp.com/attachments/1062234802591375380/1062658671450005564/jungleBook.jpg" />
+            <div class="related__stars">
+              <i class="fa-solid fa-star star--sm" style="color : #ffce33;"></i>
+              <i class="fa-solid fa-star star--sm" style="color : #ffce33;"></i>
+              <i class="fa-solid fa-star star--sm" style="color : #ffce33;"></i>
+              <i class="fa-solid fa-star star--sm" style="color: #d5d5d5;"></i>
+              <i class="fa-solid fa-star star--sm" style="color: #d5d5d5;"></i>
+            </div>
+          </div>
+
+          <div class="related__contents--content">
+            <img class="related__contents--img"
+              src="https://cdn.discordapp.com/attachments/1062234802591375380/1062658671223509022/jungleBook2.jpg" />
+            <div class="related__stars">
+              <i class="fa-solid fa-star star--sm" style="color : #ffce33;"></i>
+              <i class="fa-solid fa-star star--sm" style="color : #ffce33;"></i>
+              <i class="fa-solid fa-star star--sm" style="color: #d5d5d5;"></i>
+              <i class="fa-solid fa-star star--sm" style="color: #d5d5d5;"></i>
+              <i class="fa-solid fa-star star--sm" style="color: #d5d5d5;"></i>
+            </div>
+          </div>
+
+          <div class="related__contents--content">
+            <img class="related__contents--img"
+              src="https://cdn.discordapp.com/attachments/1062234802591375380/1062658672150446080/AOS.jpg" />
+            <div class="related__stars">
+              <i class="fa-solid fa-star star--sm" style="color : #ffce33;"></i>
+              <i class="fa-solid fa-star star--sm" style="color: #d5d5d5;"></i>
+              <i class="fa-solid fa-star star--sm" style="color: #d5d5d5;"></i>
+              <i class="fa-solid fa-star star--sm" style="color: #d5d5d5;"></i>
+              <i class="fa-solid fa-star star--sm" style="color: #d5d5d5;"></i>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div></div>
+      <div class="authors">
+        <h3 class="authors__title">Popular auothors</h3>
+        <div class="authors__descriptions">
+          <img src="https://cdn.discordapp.com/attachments/1062234802591375380/1062658671647129652/JRRM.jpg"
+            class="authors__descriptions--img-box" />
+          <div class="authors__descriptions--details">
+            <h3 class="authors__descriptions--title">George Raymond<br />Richard Martin</h3>
+            <p class="authors__descriptions--content">Modern American science fiction writer, screenwriter, producer and
+              editor, winner of many literary awards.</p>
+          </div>
+        </div>
+
+      </div>
+    </main>
+  </div>
+</body>
+
+</html>
